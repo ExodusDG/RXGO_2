@@ -10,8 +10,11 @@ $('.discount__adress').hover(
         $('.discount__adress').removeClass('discount__text_hover')
     })
 
-$('.discount__show_adress').click(function() {
-    $(this).closest('.discount__item').find('.discount__hidden').toggleClass('discount__hidden_show')
+$('.discount__item_show').click(function() {
+    $(this).closest('.discount__item_wrapper').find('.discount__adress').toggleClass('discount__adress_open')
+    $(this).closest('.discount__item_wrapper').find('.discount__item_name_block').toggleClass('border__add')
+    $(this).closest('.discount__item_wrapper').find('.discount__item_text_block').toggleClass('border__add')
+    $(this).closest('.discount__item_wrapper').find('.discount__item_coupon_block').toggleClass('border__add')
 })
 
 /* FAQ ITEM */
