@@ -2430,6 +2430,14 @@ footer hr {
     .discount_adress_row p {
         width: 100%;
     }
+    .discount__item_block_text {
+        color: #000;
+        font-weight: 700 !important;
+        font-size: 16px;
+        margin-top: -10px !important;
+        position: relative;
+        left: 60px;
+    }
 }
 
 @media (max-width: 376px) {
