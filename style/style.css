@@ -318,7 +318,7 @@ a {
 .discount__items {
     width: 980px;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 .discount__header {
@@ -405,6 +405,14 @@ a {
     text-align: center;
     color: #04397b;
     border-bottom: 0px;
+}
+
+.discount__item_coupon_block div {
+    transition: 0.3s;
+}
+
+.discount__item_coupon_block div:hover {
+    opacity: 0.8;
 }
 
 .border__add {
@@ -581,6 +589,29 @@ a {
 
 .discount_adress_row p {
     width: 50%;
+}
+
+.discount h2 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #312f2f;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.discount h2 span {
+    font-weight: 700;
+}
+
+.discount>p {
+    margin-top: 10px;
+    text-align: center;
+    color: #312f2f;
+}
+
+sup {
+    position: relative;
+    top: 2px;
 }
 
 
