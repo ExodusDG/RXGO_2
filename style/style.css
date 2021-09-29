@@ -1756,6 +1756,23 @@ footer hr {
 }
 
 @media (max-width: 491px) {
+    .coupon__price {
+        display: block;
+        position: absolute;
+        left: 15px;
+        top: 60px;
+    }
+    .coupon__price_save {
+        margin-top: 14px !important;
+        width: 90px !important;
+    }
+    .discount__item_with_coupon {
+        padding-top: 20px !important;
+    }
+    .coupon__price img {
+        height: 50px;
+        width: 170px;
+    }
     .faq {
         text-align: center;
         margin-top: 30px;
@@ -1764,13 +1781,35 @@ footer hr {
         margin: 0 auto;
         margin-top: 15px;
     }
+    .coupon__price_text {
+        position: absolute;
+        left: 15px;
+        top: -10px;
+        display: flex;
+    }
+    .coupon__price_price sup {
+        font-size: 12px !important;
+    }
     .up_button {
         bottom: 0px;
         right: 0px;
         position: absolute;
     }
+    .coupon__price_text_2 {
+        position: absolute;
+        color: white;
+        right: 0px;
+        top: 33px;
+        font-size: 10px;
+        width: 100%;
+        text-align: center;
+    }
     .reasons__button {
         width: 95%;
+    }
+    .coupon__price_price {
+        margin-top: 11px !important;
+        margin-left: 5px;
     }
     .mobile__discount_blue {
         height: 500px;
@@ -2385,6 +2424,9 @@ footer hr {
     .discount__item_name_block {
         padding-top: 30px;
     }
+    .discount__item_with_coupon {
+        padding-top: 5px !important;
+    }
 }
 
 @media (max-width: 396px) {
@@ -2429,7 +2471,7 @@ footer hr {
         left: 45px !important;
     }
     .discount__item_coupon_block div {
-        right: 40px;
+        right: 30px;
     }
 }
 
@@ -2682,6 +2724,20 @@ footer hr {
     }
     .discount__item_block_text {
         left: -80px !important;
+    }
+    .discount__item_coupon_block div {
+        right: 20px;
+    }
+    .discount__item_block_text {
+        left: -70px !important;
+    }
+    .discount__item_block_price {
+        margin-top: 20px;
+        position: relative;
+        left: 30px;
+        font-weight: 700 !important;
+        font-size: 22px !important;
+        top: -5px !important;
     }
 }
 
