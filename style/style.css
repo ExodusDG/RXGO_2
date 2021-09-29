@@ -1452,6 +1452,11 @@ footer hr {
     .discount__item {
         margin-bottom: 0px;
     }
+    .discount__item_block_text {
+        color: #000;
+        font-weight: 600;
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 769px) {
@@ -2405,7 +2410,7 @@ footer hr {
     .discount__item_block_price {
         margin-top: 20px;
         position: relative;
-        left: 55px;
+        left: 45px;
         font-weight: 700 !important;
         font-size: 22px !important;
         top: -5px !important;
@@ -2416,6 +2421,15 @@ footer hr {
         top: 70px;
         height: 40px;
         right: 30px;
+    }
+    .discount__item_text_block {
+        padding-top: 15px;
+    }
+    .discount__item_block_text {
+        left: 45px !important;
+    }
+    .discount__item_coupon_block div {
+        right: 40px;
     }
 }
 
@@ -2665,6 +2679,9 @@ footer hr {
         font-weight: 700 !important;
         font-size: 22px !important;
         top: -5px !important;
+    }
+    .discount__item_block_text {
+        left: -80px !important;
     }
 }
 
